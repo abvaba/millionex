@@ -1,0 +1,914 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width" initial-scale="1">
+    <title>Millionux</title>
+    <link rel="icon" href="images/favicon.png" sizes="16x16 32x32" type="image/png">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+        integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/themify-icons.css">
+    <link rel="stylesheet" href="css/persian-datepicker.min.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="css/home-page.css">
+</head>
+
+<body>
+    <div class="top-bar">
+        <a href="#">
+            <div id="shopping-cart__icon"><span class="persina-number">4</span></div>
+        </a>
+        <ul>
+            <li><a href="#">آیتم 1</a></li>
+            <li><a href="#">آیتم 2</a></li>
+            <li><a href="#">آیتم 3</a></li>
+            <li><a href="#">آیتم 4</a></li>
+        </ul>
+        <div id="added-card-modal">
+            <div class="added-modal-container"></div>
+            <div class="added-modal">
+                <div class="added-modal-header"><i class="ti-check"></i>
+                    <h3>به کارت اضافه شد</h3><button class="close-modal"><i class="ti-close"></i></button>
+                </div>
+                <div class="added-modal-body"><img src="images/logo.svg" alt="logo">
+                    <div>
+                        <h4>نایک اس بی آیکون</h4>
+                        <p>لورم ایپسوم متن ساختگی</p>
+                        <p>اندازه ایکس اس</p>
+                        <p> قیمت :<span class="persina-number">197/99</span></p>
+                    </div>
+                </div>
+                <div class="added-modal-footer"><button>کارت را ببین<span
+                            class="persina-number">(4)</span></button><button>بررسی</button></div>
+            </div>
+        </div>
+    </div>
+    <div id="main-page-menu"><button class="toggle-menu"><i class="ti-menu"></i></button>
+        <form id="searchForm" name="searchForm"><label for="searchFormField"><i class="ti-search"></i></label><input
+                id="searchFormField" type="search" placeholder="جست و جو..."><button type="submit"></button></form>
+        <nav id="menu">
+            <ul class="text-right">
+                <li class="has-children"><a href="#">مردان</a></li>
+                <li class="has-children"><a href="#">زنان</a></li>
+                <li class="has-children"><a href="#">کودکان</a></li>
+                <li class="has-children"><a href="#">منتخب</a></li>
+                <li class="has-children"><a href="#">هدایا</a></li>
+            </ul>
+        </nav><a href="#" id="logo"><img src="images/favicon.png" alt="logo"></a>
+    </div>
+    <div class="text-right" id="main-menu-subtitle">
+        <div class="sec-1">
+            <ul class="first-ul f1">
+                <li class="menu-item"><a href="#">آیتم</a></li>
+                <li class="menu-item"><a href="#">آیتم</a></li>
+                <li class="menu-item"><a href="#">آیتم</a></li>
+                <li class="menu-item"><a href="#">آیتم</a></li>
+                <li class="menu-item"><a href="#">آیتم</a></li>
+                <li class="menu-item"><a href="#">آیتم</a></li>
+                <li class="menu-item"><a href="#">آیتم</a></li>
+                <li class="menu-item"><a href="#">آیتم</a></li>
+            </ul>
+            <ul class="first-ul f2 f-ul__border-right">
+                <li class="mid-ul mid-ul-right"><a href="#">کفش ها</a>
+                    <ul class="second-ul">
+                        <li class="menu-item"><a href="#">ایتم</a></li>
+                        <li class="menu-item"><a href="#">ایتم</a></li>
+                        <li class="menu-item"><a href="#">ایتم</a></li>
+                        <li class="menu-item"><a href="#">ایتم</a></li>
+                        <li class="menu-item"><a href="#">ایتم</a></li>
+                        <li class="menu-item"><a href="#">ایتم</a></li>
+                        <li class="menu-item"><a href="#">ایتم</a></li>
+                        <li class="menu-item"><a href="#">ایتم</a></li>
+                        <li class="menu-item"><a href="#">ایتم</a></li>
+                        <li class="menu-item"><a href="#">ایتم</a></li>
+                        <li class="menu-item"><a href="#">ایتم</a></li>
+                        <li class="menu-item"><a href="#">ایتم</a></li>
+                        <li class="menu-item"><a href="#">ایتم</a></li>
+                        <li class="menu-item"><a href="#">ایتم</a></li>
+                    </ul>
+                </li>
+                <li class="mid-ul mid-ul-left"><a href="#">لباس ها</a>
+                    <ul class="second-ul">
+                        <li class="menu-item"><a href="#">ایتم</a></li>
+                        <li class="menu-item"><a href="#">ایتم</a></li>
+                        <li class="menu-item"><a href="#">ایتم</a></li>
+                        <li class="menu-item"><a href="#">ایتم</a></li>
+                        <li class="menu-item"><a href="#">ایتم</a></li>
+                        <li class="menu-item"><a href="#">ایتم</a></li>
+                        <li class="menu-item"><a href="#">ایتم</a></li>
+                        <li class="menu-item"><a href="#">ایتم</a></li>
+                        <li class="menu-item"><a href="#">ایتم</a></li>
+                        <li class="menu-item"><a href="#">ایتم</a></li>
+                        <li class="menu-item"><a href="#">ایتم</a></li>
+                    </ul>
+                </li>
+                <li class="mid-ul"><a href="#">تجهیزات</a>
+                    <ul class="second-ul">
+                        <li class="menu-item"><a href="#">ایتم</a></li>
+                        <li class="menu-item"><a href="#">ایتم</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <ul class="first-ul f1 f-ul__border-right">
+                <li><a href="#">مجموعه فروش</a>
+                    <ul class="second-ul">
+                        <li class="menu-item"><a href="#">ایتم</a></li>
+                        <li class="menu-item"><a href="#">ایتم</a></li>
+                        <li class="menu-item"><a href="#">ایتم</a></li>
+                        <li class="menu-item"><a href="#">ایتم</a></li>
+                        <li class="menu-item"><a href="#">ایتم</a></li>
+                        <li class="menu-item"><a href="#">ایتم</a></li>
+                        <li class="menu-item"><a href="#">ایتم</a></li>
+                        <li class="menu-item"><a href="#">ایتم</a></li>
+                        <li class="menu-item"><a href="#">ایتم</a></li>
+                        <li class="menu-item"><a href="#">ایتم</a></li>
+                        <li class="menu-item"><a href="#">ایتم</a></li>
+                        <li class="menu-item"><a href="#">ایتم</a></li>
+                        <li class="menu-item"><a href="#">ایتم</a></li>
+                        <li class="menu-item"><a href="#">ایتم</a></li>
+                        <li class="menu-item"><a href="#">ایتم</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div class="sec-2">
+            <ul class="first-ul f1">
+                <li class="menu-item"><a href="#">آیتم</a></li>
+                <li class="menu-item"><a href="#">آیتم</a></li>
+                <li class="menu-item"><a href="#">آیتم</a></li>
+                <li class="menu-item"><a href="#">آیتم</a></li>
+                <li class="menu-item"><a href="#">آیتم</a></li>
+                <li class="menu-item"><a href="#">آیتم</a></li>
+                <li class="menu-item"><a href="#">آیتم</a></li>
+            </ul>
+            <ul class="first-ul f2 f-ul__border-right">
+                <li class="mid-ul mid-ul-right"><a href="#">کفش ها</a>
+                    <ul class="second-ul">
+                        <li class="menu-item"><a href="#">ایتم</a></li>
+                        <li class="menu-item"><a href="#">ایتم</a></li>
+                        <li class="menu-item"><a href="#">ایتم</a></li>
+                        <li class="menu-item"><a href="#">ایتم</a></li>
+                        <li class="menu-item"><a href="#">ایتم</a></li>
+                        <li class="menu-item"><a href="#">ایتم</a></li>
+                        <li class="menu-item"><a href="#">ایتم</a></li>
+                        <li class="menu-item"><a href="#">ایتم</a></li>
+                        <li class="menu-item"><a href="#">ایتم</a></li>
+                        <li class="menu-item"><a href="#">ایتم</a></li>
+                        <li class="menu-item"><a href="#">ایتم</a></li>
+                        <li class="menu-item"><a href="#">ایتم</a></li>
+                    </ul>
+                </li>
+                <li class="mid-ul mid-ul-left"><a href="#">لباس ها</a>
+                    <ul class="second-ul">
+                        <li class="menu-item"><a href="#">ایتم</a></li>
+                        <li class="menu-item"><a href="#">ایتم</a></li>
+                        <li class="menu-item"><a href="#">ایتم</a></li>
+                        <li class="menu-item"><a href="#">ایتم</a></li>
+                        <li class="menu-item"><a href="#">ایتم</a></li>
+                        <li class="menu-item"><a href="#">ایتم</a></li>
+                        <li class="menu-item"><a href="#">ایتم</a></li>
+                        <li class="menu-item"><a href="#">ایتم</a></li>
+                        <li class="menu-item"><a href="#">ایتم</a></li>
+                        <li class="menu-item"><a href="#">ایتم</a></li>
+                        <li class="menu-item"><a href="#">ایتم</a></li>
+                        <li class="menu-item"><a href="#">ایتم</a></li>
+                        <li class="menu-item"><a href="#">ایتم</a></li>
+                    </ul>
+                </li>
+                <li class="mid-ul"><a href="#">تجهیزات</a>
+                    <ul class="second-ul">
+                        <li class="menu-item"><a href="#">ایتم</a></li>
+                        <li class="menu-item"><a href="#">ایتم</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <ul class="first-ul f1 f-ul__border-right">
+                <li><a href="#">مجموعه فروش</a>
+                    <ul class="second-ul">
+                        <li class="menu-item"><a href="#">ایتم</a></li>
+                        <li class="menu-item"><a href="#">ایتم</a></li>
+                        <li class="menu-item"><a href="#">ایتم</a></li>
+                        <li class="menu-item"><a href="#">ایتم</a></li>
+                        <li class="menu-item"><a href="#">ایتم</a></li>
+                        <li class="menu-item"><a href="#">ایتم</a></li>
+                        <li class="menu-item"><a href="#">ایتم</a></li>
+                        <li class="menu-item"><a href="#">ایتم</a></li>
+                        <li class="menu-item"><a href="#">ایتم</a></li>
+                        <li class="menu-item"><a href="#">ایتم</a></li>
+                        <li class="menu-item"><a href="#">ایتم</a></li>
+                        <li class="menu-item"><a href="#">ایتم</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div class="sec-3">
+            <ul class="first-ul f1">
+                <li class="menu-item"><a href="#">آیتم</a></li>
+                <li class="menu-item"><a href="#">آیتم</a></li>
+                <li class="menu-item"><a href="#">آیتم</a></li>
+                <li class="menu-item"><a href="#">آیتم</a></li>
+                <li class="menu-item"><a href="#">آیتم</a></li>
+            </ul>
+            <ul class="first-ul f2 f-ul__border-right">
+                <li class="mid-ul mid-ul-right"><a href="#">کفش پسرانه</a>
+                    <ul class="second-ul">
+                        <li class="menu-item"><a href="#">ایتم</a></li>
+                        <li class="menu-item"><a href="#">ایتم</a></li>
+                        <li class="menu-item"><a href="#">ایتم</a></li>
+                        <li class="menu-item"><a href="#">ایتم</a></li>
+                        <li class="menu-item"><a href="#">ایتم</a></li>
+                        <li class="menu-item"><a href="#">ایتم</a></li>
+                        <li class="menu-item"><a href="#">ایتم</a></li>
+                    </ul>
+                </li>
+                <li class="mid-ul mid-ul-left"><a href="#">کفش دخترانه</a>
+                    <ul class="second-ul">
+                        <li class="menu-item"><a href="#">ایتم</a></li>
+                        <li class="menu-item"><a href="#">ایتم</a></li>
+                        <li class="menu-item"><a href="#">ایتم</a></li>
+                        <li class="menu-item"><a href="#">ایتم</a></li>
+                        <li class="menu-item"><a href="#">ایتم</a></li>
+                        <li class="menu-item"><a href="#">ایتم</a></li>
+                        <li class="menu-item"><a href="#">ایتم</a></li>
+                    </ul>
+                </li>
+                <li class="mid-ul mid-ul-right"><a href="#">لباس دخترانه</a>
+                    <ul class="second-ul">
+                        <li class="menu-item"><a href="#">ایتم</a></li>
+                        <li class="menu-item"><a href="#">ایتم</a></li>
+                        <li class="menu-item"><a href="#">ایتم</a></li>
+                        <li class="menu-item"><a href="#">ایتم</a></li>
+                        <li class="menu-item"><a href="#">ایتم</a></li>
+                        <li class="menu-item"><a href="#">ایتم</a></li>
+                        <li class="menu-item"><a href="#">ایتم</a></li>
+                        <li class="menu-item"><a href="#">ایتم</a></li>
+                    </ul>
+                </li>
+                <li class="mid-ul mid-ul-left"><a href="#">لباس پسرانه</a>
+                    <ul class="second-ul">
+                        <li class="menu-item"><a href="#">ایتم</a></li>
+                        <li class="menu-item"><a href="#">ایتم</a></li>
+                        <li class="menu-item"><a href="#">ایتم</a></li>
+                        <li class="menu-item"><a href="#">ایتم</a></li>
+                        <li class="menu-item"><a href="#">ایتم</a></li>
+                        <li class="menu-item"><a href="#">ایتم</a></li>
+                        <li class="menu-item"><a href="#">ایتم</a></li>
+                        <li class="menu-item"><a href="#">ایتم</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <ul class="first-ul f1 f-ul__border-right">
+                <li><a href="#">نوزادان</a>
+                    <ul class="second-ul">
+                        <li class="menu-item"><a href="#">ایتم</a></li>
+                        <li class="menu-item"><a href="#">ایتم</a></li>
+                        <li class="menu-item"><a href="#">ایتم</a></li>
+                        <li class="menu-item"><a href="#">ایتم</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">مجموعه فروش</a>
+                    <ul class="second-ul">
+                        <li class="menu-item"><a href="#">ایتم</a></li>
+                        <li class="menu-item"><a href="#">ایتم</a></li>
+                        <li class="menu-item"><a href="#">ایتم</a></li>
+                        <li class="menu-item"><a href="#">ایتم</a></li>
+                        <li class="menu-item"><a href="#">ایتم</a></li>
+                        <li class="menu-item"><a href="#">ایتم</a></li>
+                        <li class="menu-item"><a href="#">ایتم</a></li>
+                        <li class="menu-item"><a href="#">ایتم</a></li>
+                        <li class="menu-item"><a href="#">ایتم</a></li>
+                        <li class="menu-item"><a href="#">ایتم</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div class="sec-4">
+            <ul class="first-ul f1">
+                <li class="menu-item"><a href="#">آیتم</a></li>
+                <li class="menu-item"><a href="#">آیتم</a></li>
+                <li class="menu-item"><a href="#">آیتم</a></li>
+                <li class="menu-item"><a href="#">آیتم</a></li>
+                <li class="menu-item"><a href="#">آیتم</a></li>
+            </ul>
+            <ul class="first-ul f2 f-ul__border-right">
+                <li class="mid-ul mid-ul-right"><a href="#">ای دی نایک</a>
+                    <ul class="second-ul">
+                        <li class="menu-item"><a href="#">ایتم</a></li>
+                        <li class="menu-item"><a href="#">ایتم</a></li>
+                        <li class="menu-item"><a href="#">ایتم</a></li>
+                        <li class="menu-item"><a href="#">ایتم</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">ورزشی</a>
+                    <ul class="second-ul">
+                        <li class="menu-item"><a href="#">ایتم</a></li>
+                        <li class="menu-item"><a href="#">ایتم</a></li>
+                        <li class="menu-item"><a href="#">ایتم</a></li>
+                        <li class="menu-item"><a href="#">ایتم</a></li>
+                        <li class="menu-item"><a href="#">ایتم</a></li>
+                        <li class="menu-item"><a href="#">ایتم</a></li>
+                        <li class="menu-item"><a href="#">ایتم</a></li>
+                        <li class="menu-item"><a href="#">ایتم</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <ul class="first-ul f2 f-ul__border-right">
+                <li class="mid-ul mid-ul-right"><a href="#">تغییر مشتری</a>
+                    <ul class="second-ul">
+                        <li class="menu-item"><a href="#">ایتم</a></li>
+                        <li class="menu-item"><a href="#">ایتم</a></li>
+                        <li class="menu-item"><a href="#">ایتم</a></li>
+                        <li class="menu-item"><a href="#">ایتم</a></li>
+                    </ul>
+                </li>
+                <li class="mid-ul mid-ul-left"><a href="#">مجموعه</a>
+                    <ul class="second-ul">
+                        <li class="menu-item"><a href="#">ایتم</a></li>
+                        <li class="menu-item"><a href="#">ایتم</a></li>
+                        <li class="menu-item"><a href="#">ایتم</a></li>
+                        <li class="menu-item"><a href="#">ایتم</a></li>
+                    </ul>
+                </li>
+                <li><a href="#"></a>
+                    <ul class="second-ul">
+                        <li class="menu-item"><a href="#">ایتم</a></li>
+                        <li class="menu-item"><a href="#">ایتم</a></li>
+                        <li class="menu-item"><a href="#">ایتم</a></li>
+                        <li class="menu-item"><a href="#">ایتم</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div class="sec-5">
+            <ul class="first-ul f1">
+                <li class="menu-item"><a href="#">آیتم</a></li>
+                <li class="menu-item"><a href="#">آیتم</a></li>
+                <li class="menu-item"><a href="#">آیتم</a></li>
+                <li class="menu-item"><a href="#">آیتم</a></li>
+            </ul>
+            <ul class="first-ul f2 f-ul__border-right">
+                <li class="mid-ul mid-ul-right"><a href="#">هدایای تعطیلات</a>
+                    <ul class="second-ul">
+                        <li class="menu-item"><a href="#">ایتم</a></li>
+                        <li class="menu-item"><a href="#">ایتم</a></li>
+                        <li class="menu-item"><a href="#">ایتم</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">هدایای تخفیفات</a>
+                    <ul class="second-ul">
+                        <li class="menu-item"><a href="#">ایتم</a></li>
+                        <li class="menu-item"><a href="#">ایتم</a></li>
+                        <li class="menu-item"><a href="#">ایتم</a></li>
+                        <li class="menu-item"><a href="#">ایتم</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <ul class="first-ul f2 f-ul__border-right">
+                <li class="mid-ul mid-ul-right"><a href="#">هدایا برای</a>
+                    <ul class="second-ul">
+                        <li class="menu-item"><a href="#">ایتم</a></li>
+                        <li class="menu-item"><a href="#">ایتم</a></li>
+                        <li class="menu-item"><a href="#">ایتم</a></li>
+                        <li class="menu-item"><a href="#">ایتم</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">خدمات</a>
+                    <ul class="second-ul">
+                        <li class="menu-item"><a href="#">ایتم</a></li>
+                        <li class="menu-item"><a href="#">ایتم</a></li>
+                        <li class="menu-item"><a href="#">ایتم</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="text-right" id="res__main-menu-subtitle">
+        <div id="res_menu">
+            <ul>
+                <li class="has-children back-parent1-trigger-1_target"><a href="#">مردان</a></li>
+                <li class="has-children"><a href="#">زنان</a></li>
+                <li class="has-children"><a href="#">کودکان</a></li>
+                <li class="has-children"><a href="#">منتخب</a></li>
+                <li class="has-children"><a href="#">هدایا</a></li>
+            </ul>
+        </div>
+        <div class="res__sec-1 backing_toggle">
+            <ul class="back-parent1-trigger-1_target">
+                <li class="back_parent res-item back-parent1-trigger-1"><a href="#">مردان</a></li>
+                <li class="res-item"><a href="#">ایتم</a></li>
+                <li class="res-item"><a href="#">ایتم</a></li>
+                <li class="res-item"><a href="#">ایتم</a></li>
+                <li class="res-item"><a href="#">ایتم</a></li>
+                <li class="res-item"><a href="#">ایتم</a></li>
+                <li class="res-item"><a href="#">ایتم</a></li>
+                <li class="res-item"><a href="#">ایتم</a></li>
+                <li class="res-item"><a href="#">ایتم</a></li>
+                <li class="has-children res-item res1-trigger-1"><a href="#">کفش ها</a></li>
+                <li class="has-children res-item res1-trigger-2"><a href="#">لباس ها</a></li>
+                <li class="has-children res-item res1-trigger-3"><a href="#">تجهیزات</a></li>
+                <li class="has-children res-item res1-trigger-4"><a href="#">مجموعه فروش</a></li>
+            </ul>
+            <ul class="res1-trigger-target-1 back-parent1-trigger-2_target">
+                <li class="back_parent res-item back-parent1-trigger-2"><a href="#">کفش ها</a></li>
+                <li class="res-item"><a href="#">ایتم</a></li>
+                <li class="res-item"><a href="#">ایتم</a></li>
+                <li class="res-item"><a href="#">ایتم</a></li>
+                <li class="res-item"><a href="#">ایتم</a></li>
+                <li class="res-item"><a href="#">ایتم</a></li>
+                <li class="res-item"><a href="#">ایتم</a></li>
+                <li class="res-item"><a href="#">ایتم</a></li>
+                <li class="res-item"><a href="#">ایتم</a></li>
+                <li class="res-item"><a href="#">ایتم</a></li>
+                <li class="res-item"><a href="#">ایتم</a></li>
+                <li class="res-item"><a href="#">ایتم</a></li>
+                <li class="res-item"><a href="#">ایتم</a></li>
+                <li class="res-item"><a href="#">ایتم</a></li>
+                <li class="res-item"><a href="#">ایتم</a></li>
+            </ul>
+            <ul class="res1-trigger-target-2 back-parent1-trigger-3_target">
+                <li class="back_parent res-item back-parent1-trigger-3"><a href="#">لباس ها</a></li>
+                <li class="res-item"><a href="#">ایتم</a></li>
+                <li class="res-item"><a href="#">ایتم</a></li>
+                <li class="res-item"><a href="#">ایتم</a></li>
+                <li class="res-item"><a href="#">ایتم</a></li>
+                <li class="res-item"><a href="#">ایتم</a></li>
+                <li class="res-item"><a href="#">ایتم</a></li>
+                <li class="res-item"><a href="#">ایتم</a></li>
+                <li class="res-item"><a href="#">ایتم</a></li>
+                <li class="res-item"><a href="#">ایتم</a></li>
+                <li class="res-item"><a href="#">ایتم</a></li>
+                <li class="res-item"><a href="#">ایتم</a></li>
+            </ul>
+            <ul class="res1-trigger-target-3 back-parent1-trigger-4_target">
+                <li class="back_parent res-item back-parent1-trigger-4"><a href="#">تجهیزات</a></li>
+                <li class="res-item"><a href="#">ایتم</a></li>
+                <li class="res-item"><a href="#">ایتم</a></li>
+            </ul>
+            <ul class="res1-trigger-target-4 back-parent1-trigger-5_target">
+                <li class="back_parent res-item back-parent1-trigger-5"><a href="#">مجموعه فروش</a></li>
+                <li class="res-item"><a href="#">ایتم</a></li>
+                <li class="res-item"><a href="#">ایتم</a></li>
+                <li class="res-item"><a href="#">ایتم</a></li>
+                <li class="res-item"><a href="#">ایتم</a></li>
+                <li class="res-item"><a href="#">ایتم</a></li>
+                <li class="res-item"><a href="#">ایتم</a></li>
+                <li class="res-item"><a href="#">ایتم</a></li>
+                <li class="res-item"><a href="#">ایتم</a></li>
+                <li class="res-item"><a href="#">ایتم</a></li>
+                <li class="res-item"><a href="#">ایتم</a></li>
+                <li class="res-item"><a href="#">ایتم</a></li>
+                <li class="res-item"><a href="#">ایتم</a></li>
+                <li class="res-item"><a href="#">ایتم</a></li>
+                <li class="res-item"><a href="#">ایتم</a></li>
+                <li class="res-item"><a href="#">ایتم</a></li>
+            </ul>
+        </div>
+        <div class="res__sec-2 backing_toggle">
+            <ul class="back-parent2-trigger-1_target">
+                <li class="back_parent res-item back-parent2-trigger-1"><a href="#">زنان</a></li>
+                <li class="res-item"><a href="#">ایتم</a></li>
+                <li class="res-item"><a href="#">ایتم</a></li>
+                <li class="res-item"><a href="#">ایتم</a></li>
+                <li class="res-item"><a href="#">ایتم</a></li>
+                <li class="res-item"><a href="#">ایتم</a></li>
+                <li class="res-item"><a href="#">ایتم</a></li>
+                <li class="res-item"><a href="#">ایتم</a></li>
+                <li class="has-children res-item res2-trigger-1"><a href="#">کفش ها</a></li>
+                <li class="has-children res-item res2-trigger-2"><a href="#">لباس ها</a></li>
+                <li class="has-children res-item res2-trigger-3"><a href="#">تجهیزات</a></li>
+                <li class="has-children res-item res2-trigger-4"><a href="#">مجموعه فروش</a></li>
+            </ul>
+            <ul class="res2-trigger-target-1 back-parent2-trigger-2_target">
+                <li class="back_parent res-item back-parent2-trigger-2"><a href="#">کفش ها</a></li>
+                <li class="res-item"><a href="#">ایتم</a></li>
+                <li class="res-item"><a href="#">ایتم</a></li>
+                <li class="res-item"><a href="#">ایتم</a></li>
+                <li class="res-item"><a href="#">ایتم</a></li>
+                <li class="res-item"><a href="#">ایتم</a></li>
+                <li class="res-item"><a href="#">ایتم</a></li>
+                <li class="res-item"><a href="#">ایتم</a></li>
+                <li class="res-item"><a href="#">ایتم</a></li>
+                <li class="res-item"><a href="#">ایتم</a></li>
+                <li class="res-item"><a href="#">ایتم</a></li>
+                <li class="res-item"><a href="#">ایتم</a></li>
+                <li class="res-item"><a href="#">ایتم</a></li>
+            </ul>
+            <ul class="res2-trigger-target-2 back-parent2-trigger-3_target">
+                <li class="back_parent res-item back-parent2-trigger-3"><a href="#">لباس ها</a></li>
+                <li class="res-item"><a href="#">ایتم</a></li>
+                <li class="res-item"><a href="#">ایتم</a></li>
+                <li class="res-item"><a href="#">ایتم</a></li>
+                <li class="res-item"><a href="#">ایتم</a></li>
+                <li class="res-item"><a href="#">ایتم</a></li>
+                <li class="res-item"><a href="#">ایتم</a></li>
+                <li class="res-item"><a href="#">ایتم</a></li>
+                <li class="res-item"><a href="#">ایتم</a></li>
+                <li class="res-item"><a href="#">ایتم</a></li>
+                <li class="res-item"><a href="#">ایتم</a></li>
+                <li class="res-item"><a href="#">ایتم</a></li>
+                <li class="res-item"><a href="#">ایتم</a></li>
+                <li class="res-item"><a href="#">ایتم</a></li>
+            </ul>
+            <ul class="res2-trigger-target-3 back-parent2-trigger-4_target">
+                <li class="back_parent res-item back-parent2-trigger-4"><a href="#">تجهیزات</a></li>
+                <li class="res-item"><a href="#">ایتم</a></li>
+                <li class="res-item"><a href="#">ایتم</a></li>
+            </ul>
+            <ul class="res2-trigger-target-4 back-parent2-trigger-5_target">
+                <li class="back_parent res-item back-parent2-trigger-5"><a href="#">مجموعه فروش</a></li>
+                <li class="res-item"><a href="#">ایتم</a></li>
+                <li class="res-item"><a href="#">ایتم</a></li>
+                <li class="res-item"><a href="#">ایتم</a></li>
+                <li class="res-item"><a href="#">ایتم</a></li>
+                <li class="res-item"><a href="#">ایتم</a></li>
+                <li class="res-item"><a href="#">ایتم</a></li>
+                <li class="res-item"><a href="#">ایتم</a></li>
+                <li class="res-item"><a href="#">ایتم</a></li>
+                <li class="res-item"><a href="#">ایتم</a></li>
+                <li class="res-item"><a href="#">ایتم</a></li>
+                <li class="res-item"><a href="#">ایتم</a></li>
+                <li class="res-item"><a href="#">ایتم</a></li>
+            </ul>
+        </div>
+        <div class="res__sec-3 backing_toggle">
+            <ul class="back-parent3-trigger-1_target">
+                <li class="back_parent res-item back-parent3-trigger-1"><a href="#">کودکان</a></li>
+                <li class="res-item"><a href="#">ایتم</a></li>
+                <li class="res-item"><a href="#">ایتم</a></li>
+                <li class="res-item"><a href="#">ایتم</a></li>
+                <li class="res-item"><a href="#">ایتم</a></li>
+                <li class="res-item"><a href="#">ایتم</a></li>
+                <li class="has-children res-item res3-trigger-1"><a href="#">کفش پسرانه</a></li>
+                <li class="has-children res-item res3-trigger-2"><a href="#">لباس پسرانه</a></li>
+                <li class="has-children res-item res3-trigger-3"><a href="#">کفش دخترانه</a></li>
+                <li class="has-children res-item res3-trigger-4"><a href="#">لباس دخترانه</a></li>
+                <li class="has-children res-item res3-trigger-5"><a href="#">نوزادان</a></li>
+                <li class="has-children res-item res3-trigger-6"><a href="#">مجموعه فروش</a></li>
+            </ul>
+            <ul class="res3-trigger-target-1 back-parent3-trigger-2_target">
+                <li class="back_parent res-item back-parent3-trigger-2"><a href="#">کفش پسرانه</a></li>
+                <li class="res-item"><a href="#">ایتم</a></li>
+                <li class="res-item"><a href="#">ایتم</a></li>
+                <li class="res-item"><a href="#">ایتم</a></li>
+                <li class="res-item"><a href="#">ایتم</a></li>
+                <li class="res-item"><a href="#">ایتم</a></li>
+                <li class="res-item"><a href="#">ایتم</a></li>
+                <li class="res-item"><a href="#">ایتم</a></li>
+            </ul>
+            <ul class="res3-trigger-target-2 back-parent3-trigger-3_target">
+                <li class="back_parent res-item back-parent3-trigger-3"><a href="#">لباس پسرانه</a></li>
+                <li class="res-item"><a href="#">ایتم</a></li>
+                <li class="res-item"><a href="#">ایتم</a></li>
+                <li class="res-item"><a href="#">ایتم</a></li>
+                <li class="res-item"><a href="#">ایتم</a></li>
+                <li class="res-item"><a href="#">ایتم</a></li>
+                <li class="res-item"><a href="#">ایتم</a></li>
+                <li class="res-item"><a href="#">ایتم</a></li>
+            </ul>
+            <ul class="res3-trigger-target-3 back-parent3-trigger-4_target">
+                <li class="back_parent res-item back-parent3-trigger-4"><a href="#">کفش دخترانه</a></li>
+                <li class="res-item"><a href="#">ایتم</a></li>
+                <li class="res-item"><a href="#">ایتم</a></li>
+                <li class="res-item"><a href="#">ایتم</a></li>
+                <li class="res-item"><a href="#">ایتم</a></li>
+                <li class="res-item"><a href="#">ایتم</a></li>
+                <li class="res-item"><a href="#">ایتم</a></li>
+                <li class="res-item"><a href="#">ایتم</a></li>
+                <li class="res-item"><a href="#">ایتم</a></li>
+            </ul>
+            <ul class="res3-trigger-target-4 back-parent3-trigger-5_target">
+                <li class="back_parent res-item back-parent3-trigger-5"><a href="#">لباس دخترانه</a></li>
+                <li class="res-item"><a href="#">ایتم</a></li>
+                <li class="res-item"><a href="#">ایتم</a></li>
+                <li class="res-item"><a href="#">ایتم</a></li>
+                <li class="res-item"><a href="#">ایتم</a></li>
+                <li class="res-item"><a href="#">ایتم</a></li>
+                <li class="res-item"><a href="#">ایتم</a></li>
+                <li class="res-item"><a href="#">ایتم</a></li>
+                <li class="res-item"><a href="#">ایتم</a></li>
+            </ul>
+            <ul class="res3-trigger-target-5 back-parent3-trigger-6_target">
+                <li class="back_parent res-item back-parent3-trigger-6"><a href="#">نوزادان</a></li>
+                <li class="res-item"><a href="#">ایتم</a></li>
+                <li class="res-item"><a href="#">ایتم</a></li>
+                <li class="res-item"><a href="#">ایتم</a></li>
+                <li class="res-item"><a href="#">ایتم</a></li>
+            </ul>
+            <ul class="res3-trigger-target-6 back-parent3-trigger-7_target">
+                <li class="back_parent res-item back-parent3-trigger-7"><a href="#">مجموعه فروش</a></li>
+                <li class="res-item"><a href="#">ایتم</a></li>
+                <li class="res-item"><a href="#">ایتم</a></li>
+                <li class="res-item"><a href="#">ایتم</a></li>
+                <li class="res-item"><a href="#">ایتم</a></li>
+                <li class="res-item"><a href="#">ایتم</a></li>
+                <li class="res-item"><a href="#">ایتم</a></li>
+                <li class="res-item"><a href="#">ایتم</a></li>
+                <li class="res-item"><a href="#">ایتم</a></li>
+                <li class="res-item"><a href="#">ایتم</a></li>
+                <li class="res-item"><a href="#">ایتم</a></li>
+            </ul>
+        </div>
+        <div class="res__sec-4 backing_toggle">
+            <ul class="back-parent4-trigger-1_target">
+                <li class="back_parent res-item back-parent4-trigger-1"><a href="#">منتخب</a></li>
+                <li class="res-item"><a href="#">ایتم</a></li>
+                <li class="res-item"><a href="#">ایتم</a></li>
+                <li class="res-item"><a href="#">ایتم</a></li>
+                <li class="res-item"><a href="#">ایتم</a></li>
+                <li class="res-item"><a href="#">ایتم</a></li>
+                <li class="has-children res-item res4-trigger-1"><a href="#">ای دی نایک</a></li>
+                <li class="has-children res-item res4-trigger-2"><a href="#">ورزشی</a></li>
+                <li class="has-children res-item res4-trigger-3"><a href="#">تغییر مشتری</a></li>
+                <li class="has-children res-item res4-trigger-4"><a href="#">مجموعه</a></li>
+                <li class="res-item"><a href="#">ایتم</a></li>
+                <li class="res-item"><a href="#">ایتم</a></li>
+                <li class="res-item"><a href="#">ایتم</a></li>
+                <li class="res-item"><a href="#">ایتم</a></li>
+            </ul>
+            <ul class="res4-trigger-target-1 back-parent4-trigger-2_target">
+                <li class="back_parent res-item back-parent4-trigger-2"><a href="#">ای دی نایک</a></li>
+                <li class="res-item"><a href="#">ایتم</a></li>
+                <li class="res-item"><a href="#">ایتم</a></li>
+                <li class="res-item"><a href="#">ایتم</a></li>
+                <li class="res-item"><a href="#">ایتم</a></li>
+            </ul>
+            <ul class="res4-trigger-target-2 back-parent4-trigger-3_target">
+                <li class="back_parent res-item back-parent4-trigger-3"><a href="#">ورزشی</a></li>
+                <li class="res-item"><a href="#">ایتم</a></li>
+                <li class="res-item"><a href="#">ایتم</a></li>
+                <li class="res-item"><a href="#">ایتم</a></li>
+                <li class="res-item"><a href="#">ایتم</a></li>
+                <li class="res-item"><a href="#">ایتم</a></li>
+                <li class="res-item"><a href="#">ایتم</a></li>
+                <li class="res-item"><a href="#">ایتم</a></li>
+            </ul>
+            <ul class="res4-trigger-target-3 back-parent4-trigger-4_target">
+                <li class="back_parent res-item back-parent4-trigger-4"><a href="#">تغییر مشتری</a></li>
+                <li class="res-item"><a href="#">ایتم</a></li>
+                <li class="res-item"><a href="#">ایتم</a></li>
+                <li class="res-item"><a href="#">ایتم</a></li>
+                <li class="res-item"><a href="#">ایتم</a></li>
+            </ul>
+            <ul class="res4-trigger-target-4 back-parent4-trigger-5_target">
+                <li class="back_parent res-item back-parent4-trigger-5"><a href="#">مجموعه</a></li>
+                <li class="res-item"><a href="#">ایتم</a></li>
+                <li class="res-item"><a href="#">ایتم</a></li>
+                <li class="res-item"><a href="#">ایتم</a></li>
+                <li class="res-item"><a href="#">ایتم</a></li>
+            </ul>
+        </div>
+        <div class="res__sec-5 backing_toggle">
+            <ul class="back-parent5-trigger-1_target">
+                <li class="back_parent res-item back-parent5-trigger-1"><a href="#">هدایا</a></li>
+                <li class="res-item"><a href="#">ایتم</a></li>
+                <li class="res-item"><a href="#">ایتم</a></li>
+                <li class="res-item"><a href="#">ایتم</a></li>
+                <li class="res-item"><a href="#">ایتم</a></li>
+                <li class="has-children res-item res5-trigger-1"><a href="#">هدایای تعطیلات</a></li>
+                <li class="has-children res-item res5-trigger-2"><a href="#">هدایای تخفیفات</a></li>
+                <li class="has-children res-item res5-trigger-3"><a href="#">هدایا برای</a></li>
+                <li class="has-children res-item res5-trigger-4"><a href="#">خدمات</a></li>
+            </ul>
+            <ul class="res5-trigger-target-1 back-parent5-trigger-2_target">
+                <li class="back_parent res-item back-parent5-trigger-2"><a href="#">هدایای تعطیلات</a></li>
+                <li class="res-item"><a href="#">ایتم</a></li>
+                <li class="res-item"><a href="#">ایتم</a></li>
+                <li class="res-item"><a href="#">ایتم</a></li>
+            </ul>
+            <ul class="res5-trigger-target-2 back-parent5-trigger-3_target">
+                <li class="back_parent res-item back-parent5-trigger-3"><a href="#">هدایای تخفیفات</a></li>
+                <li class="res-item"><a href="#">ایتم</a></li>
+                <li class="res-item"><a href="#">ایتم</a></li>
+                <li class="res-item"><a href="#">ایتم</a></li>
+                <li class="res-item"><a href="#">ایتم</a></li>
+            </ul>
+            <ul class="res5-trigger-target-3 back-parent5-trigger-4_target">
+                <li class="back_parent res-item back-parent5-trigger-4"><a href="#">هدایابرای</a></li>
+                <li class="res-item"><a href="#">ایتم</a></li>
+                <li class="res-item"><a href="#">ایتم</a></li>
+                <li class="res-item"><a href="#">ایتم</a></li>
+                <li class="res-item"><a href="#">ایتم</a></li>
+            </ul>
+            <ul class="res5-trigger-target-4 back-parent5-trigger-5_target">
+                <li class="back_parent res-item back-parent5-trigger-5"><a href="#">خدمات</a></li>
+                <li class="res-item"><a href="#">ایتم</a></li>
+                <li class="res-item"><a href="#">ایتم</a></li>
+                <li class="res-item"><a href="#">ایتم</a></li>
+            </ul>
+        </div>
+    </div>
+    <div id="main-page-slider">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">اپلیکیشن مارا دانلود کنید<a href="#">بیشتر بخوانید</a></div>
+            <div class="swiper-slide">انتقال رایگان برای اعضا<a href="#">عضو شوید</a></div>
+            <div class="swiper-slide"><img src="images/return-shape.svg" alt="return-shape">
+                <p><span class="persina-number">60</span>روز بازگشت رایگان</p><a href="#">جزئیات را ببین</a>
+            </div>
+        </div>
+        <div class="swiper-button-prev"><i class="ti-angle-right"></i></div>
+        <div class="swiper-button-next"><i class="ti-angle-left"></i></div>
+    </div>
+    <div class="text-center" id="main-page-intro">
+        <h1>میلیونکس</h1>
+        <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون
+            بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است</p><button>پرس و جو کن</button>
+    </div>
+    <div class="grid row" id="main-page-album">
+        <div class="grid-item" data-aos="fade-up" data-aos-duration="1000"><img class="main-page-album-image"
+                src="images/project-single-1.jpg" alt="project-single-1">
+            <a href="#">
+                <h2>زوج خوشحال</h2>
+                <p>مردم / زندگی</p>
+            </a>
+        </div>
+        <div class="grid-item" data-aos="fade-up" data-aos-duration="1000"><img class="main-page-album-image"
+                src="images/project-single-2.jpg" alt="project-single-2">
+            <a href="#">
+                <h2>سگ تنها</h2>
+                <p>حیوانات / هنر</p>
+            </a>
+        </div>
+        <div class="grid-item" data-aos="fade-up" data-aos-duration="1200"><img class="main-page-album-image"
+                src="images/project-single-3.jpg" alt="project-single-3">
+            <a href="#">
+                <h2>بلوند متأثر</h2>
+                <p>مردم / زندگی</p>
+            </a>
+        </div>
+        <div class="grid-item" data-aos="fade-up" data-aos-duration="1400"><img class="main-page-album-image"
+                src="images/project-single-4.jpg" alt="project-single-4">
+            <a href="#">
+                <h2>تابستان دوست داشتنی</h2>
+                <p>اشیاء / غذاها</p>
+            </a>
+        </div>
+        <div class="grid-item" data-aos="fade-up" data-aos-duration="1200"><img class="main-page-album-image"
+                src="images/project-single-5.jpg" alt="project-single-5">
+            <a href="#">
+                <h2>ماشین تحریر انگشتی</h2>
+                <p>اشیاء / منزوی</p>
+            </a>
+        </div>
+        <div class="grid-item" data-aos="fade-up" data-aos-duration="1400"><img class="main-page-album-image"
+                src="images/project-single-6.jpg" alt="project-single-6">
+            <a href="#">
+                <h2>مه غلیظ</h2>
+                <p>مردم / زندگی</p>
+            </a>
+        </div>
+    </div>
+    <div id="main-page-payment">
+        <div class="main-page-payment__header"><img src="images/favicon.png" alt="logo">
+            <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از</p>
+            <ul>
+                <li><a href="#"><i class="ti-facebook"></i></a></li>
+                <li><a href="#"><i class="ti-twitter-alt"></i></a></li>
+                <li><a href="#"><i class="ti-pinterest-alt"></i></a></li>
+                <li><a href="#"><i class="ti-instagram"></i></a></li>
+                <li><a href="#"><i class="ti-flickr-alt"></i></a></li>
+            </ul><a href="#"><img src="images/payment.png" alt="payment"></a>
+        </div>
+        <div class="main-page-payment__carousel">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img class="payment-scale" src="images/gallery-img-1.jpg" alt="gallery-img-1">
+                </div>
+                <div class="swiper-slide"><img class="payment-scale" src="images/gallery-img-2.jpg" alt="gallery-img-2">
+                </div>
+                <div class="swiper-slide"><img class="payment-scale" src="images/gallery-img-3.jpg" alt="gallery-img-3">
+                </div>
+                <div class="swiper-slide"><img class="payment-scale" src="images/gallery-img-4.jpg" alt="gallery-img-4">
+                </div>
+            </div>
+        </div>
+    </div>
+    <h3 class="latest-pasts text-right">آخرین پست ها</h3>
+    <div id="footer-slider">
+        <div id="carousel"><img src="images/gossip-slider-1.jpg" alt="gossip-slider-1" data-hash="item-1"><img
+                src="images/gossip-slider-2.jpg" alt="gossip-slider-2" data-hash="item-2"><img
+                src="images/gossip-slider-3.jpg" alt="gossip-slider-3" data-hash="item-3"><img
+                src="images/gossip-slider-4.jpg" alt="gossip-slider-4" data-hash="item-4"></div>
+        <div id="owl-carousel-controler">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><a class="owl-carousel-controler__link" href="#item-1"><span>
+                            <h1>سبک زندگی</h1>
+                            <p>لورم ایپسوم متن ساختگی با تولید سادگی</p>
+                            <p>14 دسامبر 2013</p><button>بیشتر بخوانید</button>
+                        </span></a></div>
+                <div class="swiper-slide"><a class="owl-carousel-controler__link" href="#item-2"><span>
+                            <h1>سرگرمی</h1>
+                            <p>لورم ایپسوم متن ساختگی با تولید سادگی</p>
+                            <p>14 دسامبر 2013</p><button>بیشتر بخوانید</button>
+                        </span></a></div>
+                <div class="swiper-slide"><a class="owl-carousel-controler__link" href="#item-3"><span>
+                            <h1>مسافرت</h1>
+                            <p>لورم ایپسوم متن ساختگی با تولید سادگی</p>
+                            <p>16 آپریل 2014</p><button>بیشتر بخوانید</button>
+                        </span></a></div>
+                <div class="swiper-slide"><a class="owl-carousel-controler__link" href="#item-4"><span>
+                            <h1>سبک زندگی</h1>
+                            <p>لورم ایپسوم متن ساختگی با تولید سادگی</p>
+                            <p>19 آپریل 2014</p><button>بیشتر بخوانید</button>
+                        </span></a></div>
+            </div>
+            <div class="swiper-button-prev"><i class="ti-angle-right"></i></div>
+            <div class="swiper-button-next"><i class="ti-angle-left"></i></div>
+        </div>
+    </div>
+    <div class="main-page__share">
+        <h6>این صفحه را به اشتراک بگذارید</h6>
+        <ul>
+            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fab fa-pinterest"></i></a></li>
+            <li><a href="#"><i class="ti-more-alt fab__more"></i></a></li>
+        </ul>
+    </div>
+    <div id="newsletter">
+        <h3>عضو خبرنامه شوید</h3>
+        <p>جهت خبرنامه ما ثبت نام کنید</p><img src="images/newsletter-line.svg" alt="newsletter-line">
+        <form id="newsletter-form" name="newsletter-form" method="post" action=""><input type="email"
+                placeholder="ایمیلتان را وارد کنید"><button class="newsletter-submit-button" type="submit">ثبت نام<div
+                    id="long-arrow-left"></div></button></form>
+        <div class="row">
+            <div class="free-shipping col-12 col-md-6 col-lg-3"><img src="images/air-plane.svg"
+                    alt="air-plane"><span>ترابری رایگان</span></div>
+            <div class="customer-service col-12 col-md-6 col-lg-3"><img src="images/support.svg"
+                    alt="support"><span><span class="persina-number">24 / 7</span>خدمات مشتری</span>
+            </div>
+            <div class="memory-guaranty col-12 col-md-6 col-lg-3"><img src="images/money-back.svg"
+                    alt="money-back"><span>ضمانت بازگشت وجه</span></div>
+            <div class="shopping-guide col-12 col-md-6 col-lg-3"><img src="images/cog.svg" alt="cog"><span>راهنمای
+                    خرید</span></div>
+        </div>
+    </div>
+    <footer id="footer">
+        <div class="row">
+            <ul class="footer-sec-4 clearfix">
+                <li><a href="#"><i class="ti-twitter-alt"></i></a></li>
+                <li><a href="#"><i class="ti-facebook"></i></a></li>
+                <li><a href="#"><i class="ti-youtube"></i></a></li>
+                <li><a href="#"><i class="ti-instagram"></i></a></li>
+            </ul>
+            <ul class="min-device-footer">
+                <li><a href="#">هدایا</a></li>
+                <li><a href="#">کمک</a></li>
+                <li><a href="#">درباره میلیونکس</a></li>
+            </ul>
+            <ul class="footer-sec-1 clearfix">
+                <li><a href="#">کارتهای هدیه</a></li>
+                <li><a href="#">تخفیف دانش آموزی</a></li>
+                <li><a href="#">تخفیف نظامی</a></li>
+                <li><a href="#">پیداکردن فروشگاه</a></li>
+                <li><a href="#">ثبت نام باایمیل</a></li>
+                <li><a href="#">عضو شوید</a></li>
+                <li><a href="#">بازخورد سایت</a></li>
+            </ul>
+            <ul class="footer-sec-2 clearfix">
+                <li><a href="#">کمک گرفتن</a></li>
+                <li><a href="#">وضعیت سفارش</a></li>
+                <li><a href="#">ترابری و تحویل</a></li>
+                <li><a href="#">بازگشت</a></li>
+                <li><a href="#">روشهای پرداخت</a></li>
+                <li><a href="#">ارتباط با ما</a></li>
+            </ul>
+            <ul class="footer-sec-3 clearfix">
+                <li><a href="#">درباه میلینیوکس</a></li>
+                <li><a href="#">اخبار</a></li>
+                <li><a href="#">اشتغال</a></li>
+                <li><a href="#">گفت و گوی فرهنگی وحرفه</a></li>
+                <li><a href="#">سرمایه گذاران</a></li>
+                <li><a href="#">نوآوری پایدار</a></li>
+                <li><a href="#">فعالیت زنجیره تأمین CA</a></li>
+            </ul>
+        </div>
+        <div class="footer-bottom-bar">
+            <p>تمامی حقوق محفوظ می باشد</p>
+            <div><a href="#">راهنمایی</a><a href="#">اصلاحات قابل استفاده</a><a href="#">سیاست حریم خصوصی</a></div>
+        </div>
+    </footer><a class="to-top" href="#"><i class="ti-angle-up"></i></a>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/svg.js/2.7.1/svg.js"></script>
+    <script src="https://unpkg.com/tippy.js@3/dist/tippy.all.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/persian-date.min.js"></script>
+    <script src="js/persian-datepicker.min.js"></script>
+    <script src="js/swiper.min.js"></script>
+    <script src="js/blocksit.min.js"></script>
+    <script src="js/jquery.mousedirection.js"></script>
+    <script src="js/jquery.swiptouch.min.js"></script>
+    <script src="js/home-page.js"></script>
+</body>
+
+</html>
